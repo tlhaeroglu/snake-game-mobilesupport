@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake Game</title>
+</head>
+
+<body class="bg-dark text-center m-auto text-white">
+
+    <div>
+        <p id="score" class="p">Score : 0</p>
+        <button class="btn btn-primary">Tam Ekran Yap</button>
+    </div>
+    <div class="game-over">
+        <p class="h5">Game Over</p>
+        <p class="h6">Score : 0</p>
+        <button class="btn btn-danger btn-lg">New Game</button>
+    </div>
+    <canvas tabindex="0" id="canvas" width="400" height="400"></canvas><br>
+    <button id="up">↑</button><br>
+    <button id="left">←</button>
+    <button id="down">↓</button>
+    <button id="right">→</button>
+    <img src="assets/snakee.png" id="img" alt="">
+    <img src="assets/snake1.png" id="img1" alt="">
+    <img src="assets/head.png" id="img2" alt="">
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
